@@ -17,10 +17,12 @@ const PeopleList=()=>{
         <section>
             <Person img="10" name="Sopon" job="Programmer" />
             <p>Skill : C# Java PHP</p>
-            <Person img="25" name="Jonathan Joestar" job="Tester" />
+            <Person img="26" name="Jonathan Joestar" job="Tester" />
             <p>Skill : ทดสอบระบบ</p>
             <Person img="6" name="JOJO" job="Designer"/>
             <p>Skill : Photoshop , 3d model</p>
+            <Person img="98" name="Code" job="SA"/>
+            <p>Skill : A, B, C</p>
         </section>
     )
 }
