@@ -5,9 +5,9 @@ const Person=({img,name,job})=>{
     const url=  `Http://randomuser.me/api/portraits/thumb/men/${img}.jpg `
     return(
         <article>
-            <img src="Http://randomuser.me/api/portraits/thumb/men/3.jpg"/>
-            <h2>Name : Sopon Niyomwan</h2>
-            <h3>Job  : Programmer</h3>
+            <img src={url}/>
+            <h2>Name : {name}</h2>
+            <h3>Job  : {job} </h3>
             
         </article>
     )
@@ -15,9 +15,9 @@ const Person=({img,name,job})=>{
 const PeopleList=()=>{
     return(
         <section>
-            <Person/>
-            <Person/>
-            <Person/>
+            <Person img="10" name="Sopon" job="Programmer" />
+            <Person img="25" name="Jonathan Joestar" job="Tester" />
+            <Person img="6" name="JOJO" job="Designer"/>
         </section>
     )
 }
